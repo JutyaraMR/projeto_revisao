@@ -4,16 +4,23 @@
 	<title>
 	
 	</title>
+    <link rel="stylesheet" href="assets/css/estilo.css">
 </head>
-<body>
+<body id="quarta">
+
+
 
 <nav id="menu">
+    <div>
+
+
     <ul>
         <li><a href="produtos.php?categoria=1&nome=eletronicos">Eletrônicos</a></li>
         <li><a href="produtos.php?categoria=2&nome=esportes">Esportes</a></li>
         <li><a href="produtos.php?categoria=3&nome=moveis">Móveis</a></li>
         <li><a href="produtos.php?categoria=4&nome=roupas">Roupas</a></li>
     </ul>
+    </div>
 </nav>
 	<form method="post" action="produtos.php">
 		<input type="text" name="busca" placeholder="Pesquisar">
